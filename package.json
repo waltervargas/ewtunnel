@@ -1,0 +1,22 @@
+{
+  "name": "ewtunnel",
+  "version": "1.0.0",
+  "description": "Enterprise SSH Tunnel Example",
+  "main": "ewtunnel.js",
+  "bin": {
+    "ewtunnel": "./ewtunnel.js"
+  },
+  "author": "Walter Vargas",
+  "license": "ISC",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "read": "^1.0.7",
+    "tcp-ping": "^0.1.1",
+    "tunnel-ssh": "^4.1.4"
+  },
+  "pkg": {
+    "targets": [
+      "win"
+    ]
+  }
+}
